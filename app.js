@@ -113,4 +113,43 @@ container6.classList.add('containet6');
 console.log(container6);
 
 const section6 = document.createElement('h2');
+section6.setAttribute('id', 'section6');
+section6.textContent = 'Rocket';
 console.log(section6);
+
+const para6 = document.createElement('p');
+para6.classList.add('paragraph6');
+para6.textContent = 'James Harden';
+console.log(para6);
+
+const body = document.querySelector('body')
+console.log(body);
+
+body.appendChild(container6);
+container6.appendChild(section6);
+container6.appendChild(para6);
+
+
+// container 7
+
+const container7 = document.createElement('div');
+container7.classList.add('container7');
+console.log(container7);
+
+const section7 = document.createElement('h2');
+section7.setAttribute('id', 'section7');
+section7.textContent = 'Fire';
+console.log(section7);
+
+const para7 = document.createElement('p');
+para7.classList.add('paragraph7');
+para7.textContent = 'Philip Yap';
+console.log(para7);
+
+body.appendChild(container7);
+container7.appendChild(section7);
+container7.appendChild(para7);
+
+
+
+

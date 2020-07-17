@@ -9,7 +9,7 @@ const cars = ['honda', 'toyota', 'lexus'];
 console.log(cars);
 
 let number = 5
-    console.log(true);
+    console.log(number);
 
 
 const things = { 

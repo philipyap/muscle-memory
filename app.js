@@ -19,3 +19,13 @@ const things = {
     rule: 'true'
 }
 console.log(things);
+
+
+
+function printArray(array){
+    for(let i = 0; i < array.length; i++){
+        let num = array[i];
+       return num;
+    }
+}
+console.log(num);
